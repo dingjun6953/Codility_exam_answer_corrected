@@ -1,4 +1,4 @@
-Problem: find the minmal length of the unique substrings  among all substrings of a string
+Problem: To find the minmal length of the unique substrings  among all substrings of a string
 
 Languge: C++
 
