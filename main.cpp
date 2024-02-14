@@ -31,7 +31,7 @@ for(int i=0;i<length-1;i++)
     }
 }
 
-//find all unique substrings of different length. 
+//find all unique substrings of different length and store them into a vector. 
 for(auto elm:text)
 {
     count=0;
