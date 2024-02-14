@@ -23,7 +23,6 @@ for(int i=0;i<length-1;i++)
 {
     for(int j=1;j<length-i+1;j++)
     {
-
         if(S.substr(i,j).length()>1)
         {
             text.push_back(S.substr(i,j));
