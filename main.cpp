@@ -51,7 +51,7 @@ for (auto elm2:result)
     }
 }
 
-return min ;
+return min;
 }
 
 int main()
