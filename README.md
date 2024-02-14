@@ -2,4 +2,4 @@ Problem: find the minmal length of the unique substrings  among all substrings o
 
 Languge: C++
 
-Note: This is a corrected answer to the Codility exam problem. 
+Note: This is a corrected answer to the Codility exam problem. I think it should be an perfect solution to this problem. 
