@@ -1,5 +1,5 @@
 /*
-Problem: find the minmal length of the unique substrings  among all substrings of a string
+Problem: To find the minmal length of the unique substrings  among all substrings of a string
 */
 
 #include <iostream>
@@ -18,7 +18,7 @@ string output;
 vector<string> text;
 vector<string> result;
 
-//find all substrings and store them into a vector.
+//To find all substrings and store them into a vector.
 for(int i=0;i<length-1;i++)
 {
     for(int j=1;j<length-i+1;j++)
@@ -30,7 +30,7 @@ for(int i=0;i<length-1;i++)
     }
 }
 
-//find all unique substrings of different length and store them into a vector. 
+//To find all unique substrings of different length and store them into a vector. 
 for(auto elm:text)
 {
     count=0;
@@ -41,7 +41,7 @@ for(auto elm:text)
     if (count==1) result.push_back(elm);
 }
 
-//find the minmal length of all unique substrings. 
+//To find the minmal length of all unique substrings. 
 for (auto elm2:result)
 {
     if(elm2.length()<min)
