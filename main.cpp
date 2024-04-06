@@ -19,7 +19,7 @@ vector<string> text;
 vector<string> result;
 
 //To find all substrings and store them into a vector.
-for(int i=0;i<length-1;i++)
+for(int i=0;i<length;i++)
 {
     for(int j=1;j<length-i+1;j++)
     {
